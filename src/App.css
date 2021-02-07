@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Prompt&display=swap');
+
+:root {
+    --primary-color: #aaa0a0;
+    --secondary-color: #474853;
+    --accent-color: #86b3d1;
+
+    --bio-font: 'Prompt', sans-serif;
+    --nav-bar-font: 'Lexend Mega', sans-serif;
+}
+
+
+/* --------------------------HEADER------------------------ */
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.header-container nav a{
+  text-decoration: none;
+  color: var(--accent-color);
+  font-family: var(--nav-bar-font);
+  font-size: 18px;
+  margin: 0 25px;
+  text-transform: uppercase;
+}
+
+/* --------------------------HOME CONTAINER------------------------ */
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+/* --------------------------FOOTER------------------------ */
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--accent-color);
+}
