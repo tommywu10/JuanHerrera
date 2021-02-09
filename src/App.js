@@ -1,6 +1,10 @@
+import React from 'react'
+import {Route, Switch} from 'react-router-dom'
+
 import Home from "./Components/Home"
-import Header from './Components/Header'
-import Footer from './Components/Footer'
+import About from "./Components/About"
+import Contact from "./Components/Contact"
+
 
 import './App.css';
 
@@ -8,9 +12,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Home />
-      <Footer /> 
+      <Switch>
+        <Route exact path="/" component={Home}/>
+        <Route path="/about" component={About}/>
+        <Route path="/contact" component={Contact}/>
+      </Switch>
     </div>
   );
 }
