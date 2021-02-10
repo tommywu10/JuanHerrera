@@ -2,29 +2,20 @@ import React from 'react'
 
 import Header from './Header'
 import Footer from './Footer'
+import LandingPage from './LandingPage'
+import About from './About'
 
-import {FaAngleDoubleDown} from "react-icons/fa"
 import recitalImage from '../images/recital.jpg'
 
 export default function Home(){
     return (
         <div className="home-container">
-
-            <div className="landing-page-container">
-                <div className="landing-page-text">
-                    <h1>Juan Herrera</h1>
-                    <h2>Percussion</h2>
-                    <FaAngleDoubleDown id="landing-page-arrow"/>
-                </div>
-            </div>
-
+            <LandingPage />
             
-
             <div className="home-main-container">
                 <Header />
-                
                 <div className="home-main-content">
-                    <div className="home-text-left">
+                    <div className="home-main-text">
                         <p>Performer</p>
                         <p>Teacher</p>
                         <p>Innovator</p>
@@ -32,8 +23,9 @@ export default function Home(){
                     <img src={recitalImage} alt="Juan's recital" />
 
                 </div>
-                
             </div>
+        
+            <About />
             <Footer />
         </div>
     )
