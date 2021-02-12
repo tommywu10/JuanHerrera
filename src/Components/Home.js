@@ -4,6 +4,7 @@ import Header from './Header'
 import Footer from './Footer'
 import LandingPage from './LandingPage'
 import About from './About'
+import LiminalSpace from './LiminalSpace'
 
 import recitalImage from '../images/recital.jpg'
 
@@ -24,8 +25,9 @@ export default function Home(){
 
                 </div>
             </div>
-        
+
             <About />
+            <LiminalSpace />
             <Footer />
         </div>
     )
