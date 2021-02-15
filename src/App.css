@@ -191,6 +191,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+}
+
+.liminal-space-left p {
+  width: 80%;
 }
 
 .liminal-space-right {
