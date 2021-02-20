@@ -5,29 +5,20 @@ import Footer from './Footer'
 import LandingPage from './LandingPage'
 import About from './About'
 import LiminalSpace from './LiminalSpace'
+import Contact from './Contact'
+import HomeMain from './HomeMain'
 
-import recitalImage from '../images/recital.jpg'
+
 
 export default function Home(){
     return (
         <div className="home-container">
             <LandingPage />
-            
-            <div className="home-main-container">
-                <Header />
-                <div className="home-main-content">
-                    <div className="home-main-text">
-                        <p>Performer</p>
-                        <p>Teacher</p>
-                        <p>Innovator</p>
-                    </div>
-                    <img src={recitalImage} alt="Juan's recital" />
-
-                </div>
-            </div>
-
+            <HomeMain />
+            <Header />
             <About />
             <LiminalSpace />
+            <Contact />
             <Footer />
         </div>
     )

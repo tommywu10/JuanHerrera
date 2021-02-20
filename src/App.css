@@ -12,6 +12,10 @@
     --landing-page-font: 'Roboto', sans-serif;
 }
 
+html, body {
+  width: 100%;
+  height: 100%;
+}
 
 /* --------------------------HEADER------------------------ */
 .header-container {
@@ -28,7 +32,7 @@
   color: var(--accent-color);
   font-family: var(--nav-bar-font);
   font-size: 18px;
-  margin: 0 25px;
+  margin: 0 15px;
   text-transform: uppercase;
   transition: linear .2s;
 }
@@ -62,14 +66,13 @@
 
 .landing-page-text h1 {
   font-weight: 300;
-  font-size: 90px;
+  font-size: 40px;
   margin: 10px 0;
   letter-spacing: 1.4px;
 }
 
 .landing-page-text h2 {
   font-weight: 100;
-  font-size: 30px;
 }
 
 #landing-page-arrow {
@@ -103,8 +106,7 @@
 }
 
 .home-main-container img {
-  width: 150%;
-  height: 100%;
+  width: 100%;
 }
 
 .home-main-content {
@@ -113,20 +115,24 @@
   align-items: center;
   position: relative;
   height: 100vh;
+  background-image: url('./images/recital.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(84, 85, 99);
+  background-blend-mode: multiply;
 }
 
 .home-main-text {
-  font-size: 30px;
   display: flex;
   position: absolute;
   bottom: 20px;
 }
 
 .home-main-text p {
-  padding: 0 60px;
   font-family: var(--landing-page-font);
   font-weight: lighter;
   cursor: default ;
+  margin: 10px 15px;
 }
 
 
@@ -135,82 +141,124 @@
 .about-me-container {
   height: 100vh;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  background-image: linear-gradient(100deg, rgba(0,0,0,.5) 30%, rgba(0,0,0, 1) 50%, rgba(0,0,0,1) 100%), url('./images/percussion.jpg');
+  background-image: url('./images/percussion.jpg');
+  background-position: center;
+  background-size: cover;
+  background-color: #64646e;
+  background-blend-mode: multiply;
+  /* background-image: linear-gradient(100deg, rgba(0,0,0,.5) 30%, rgba(0,0,0, 1) 50%, rgba(0,0,0,1) 100%), url('./images/percussion.jpg');
   background-size: contain ;
   background-repeat: no-repeat;
-  background-blend-mode: multiply;
+  background-blend-mode: multiply; */
 }
 
-.about-me-left {
-  width: 60%;
-  height: 100%;
+.about-me-title {
   text-align: center;
+}
+
+.about-me-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.about-me-left {
-  font-size: 20px;
-}
-
-.about-me-right {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.about-me-right p{
-  width: 80%;
-  font-size: 18px;
+.about-me-content p{
+  padding: 0 15px;
 }
 /* --------------------------LIMINAL SPACE------------------------ */
 
 .liminal-space-container {
   width: 100%;
-  height: 100vh;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
-  
 }
 
 
-.liminal-space-left {
-  width: 50%;
-  height: 100%;
-  font-size: 18px;
-  letter-spacing: .5px;
+.liminal-space-content {
+  font-size: 16px;
   background-color: black;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  padding: 0 20px;
 }
 
-.liminal-space-left p {
-  width: 80%;
-}
-
-.liminal-space-right {
+.liminal-space-logo {
   background: radial-gradient(circle, rgb(146, 138, 138) 0%, rgba(0,0,0,1) 51%, rgba(0,0,0,1) 100%);
   height: 100%;
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 #liminal-logo{
-  width: 250px;
+  width: 200px;
+  margin: 15px 0 0;
 }
 
+#liminal-crew-img {
+  width: 100%;
+  padding: 5px 0 20px;
+}
+/* -------------------------CONTACT------------------------ */
 
+.contact-container {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  background-image: url('./images/cactus.jpg');
+  background-position: center;
+  background-size: cover;
+  background-color: #737488;
+  background-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container h1 {
+  position: absolute;
+  top: 0;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 0 ;
+}
+
+.contact-info h3 {
+  margin: 0 20px ;
+  letter-spacing: .5px;
+}
+
+.contact-icon {
+  font-size: 30px;
+}
+
+.contact-content h4 {
+  position: absolute;
+  bottom: 0;
+  text-align: center
+}
 /* --------------------------FOOTER------------------------ */
 
 .footer-container {
