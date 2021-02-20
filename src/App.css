@@ -93,20 +93,17 @@ html, body {
 }
 
 .home-main-container {
-  background-image: url('./images/recital.jpg');
-  background-size: cover;
-  background-position: center;
-  background-color: rgb(84, 85, 99);
-  background-blend-mode: color-burn;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 100vh;
 }
 
 .home-main-container img {
   width: 100%;
+  height: 80%;
 }
 
 .home-main-content {
@@ -114,12 +111,13 @@ html, body {
   justify-content: center;
   align-items: center;
   position: relative;
-  height: 100vh;
   background-image: url('./images/recital.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-color: rgb(84, 85, 99);
   background-blend-mode: multiply;
+  height: 100%;
+  width: 100%;
 }
 
 .home-main-text {
@@ -140,6 +138,7 @@ html, body {
 
 .about-me-container {
   height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -147,12 +146,10 @@ html, body {
   background-image: url('./images/percussion.jpg');
   background-position: center;
   background-size: cover;
-  background-color: #64646e;
   background-blend-mode: multiply;
-  /* background-image: linear-gradient(100deg, rgba(0,0,0,.5) 30%, rgba(0,0,0, 1) 50%, rgba(0,0,0,1) 100%), url('./images/percussion.jpg');
-  background-size: contain ;
   background-repeat: no-repeat;
-  background-blend-mode: multiply; */
+  background-color: #737488;
+  
 }
 
 .about-me-title {
@@ -173,9 +170,9 @@ html, body {
 
 .liminal-space-container {
   width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 
@@ -187,6 +184,7 @@ html, body {
   justify-content: center;
   align-items: center;
   padding: 0 20px;
+  height: 100%;
 }
 
 .liminal-space-logo {
@@ -285,4 +283,57 @@ html, body {
 .footer-icon:hover {
   color: white;
   transform: scale(1.2)
+}
+
+/* --------------------------MEDIA QUERY------------------------ */
+
+@media (min-width: 1024px) {
+  .home-main-container img {
+    width: 60%;
+    height: 100%;
+  }
+
+  .about-me-container {
+    flex-direction: row;
+    background-image: linear-gradient(100deg, rgba(0,0,0,.5) 20%, rgba(0,0,0, 1) 50%, rgba(0,0,0,1) 100%), url('./images/percussion.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: left;
+    background-color: #ffffff;
+  }
+
+  .about-me-title {
+    width: 50%;
+  }
+
+  .about-me-content {
+    width: 50%;
+  }
+
+  .liminal-space-container {
+    flex-direction: row;
+  }
+
+  .liminal-space-content {
+    width: 50%;
+    order: 1;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .liminal-space-logo {
+    order: 2;
+    width: 50%;
+    height: 100%;
+  }
+
+  #liminal-crew-img {
+    display: none;
+  }
+
+  .contact-container h1 {
+    top: 100px;
+  }
 }

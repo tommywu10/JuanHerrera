@@ -1,6 +1,6 @@
 import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faEnvelope, faLocationArrow} from '@fortawesome/free-solid-svg-icons'
+import {faEnvelope, faLocationArrow, faPhoneSquareAlt} from '@fortawesome/free-solid-svg-icons'
 import cactus from '../images/cactus.jpg'
 
 export default function Contact(){
@@ -16,6 +16,10 @@ export default function Contact(){
                 <div className="contact-info">
                     <FontAwesomeIcon icon={faLocationArrow} className="contact-icon"/>
                     <h3>Fredonia, NY</h3>
+                </div>
+                <div className="contact-info">
+                    <FontAwesomeIcon icon={faPhoneSquareAlt} className="contact-icon"/>
+                    <h3>911-420-6969</h3>
                 </div>
                 <h4>Currently accepting students for remote and in-person lessons.</h4>
             </div>

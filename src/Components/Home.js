@@ -14,8 +14,8 @@ export default function Home(){
     return (
         <div className="home-container">
             <LandingPage />
-            <HomeMain />
             <Header />
+            <HomeMain />
             <About />
             <LiminalSpace />
             <Contact />
