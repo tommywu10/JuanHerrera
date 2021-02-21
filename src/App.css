@@ -170,7 +170,6 @@ html, body {
 
 .liminal-space-container {
   width: 100%;
-  height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -313,6 +312,7 @@ html, body {
 
   .liminal-space-container {
     flex-direction: row;
+    height: 100vh;
   }
 
   .liminal-space-content {
