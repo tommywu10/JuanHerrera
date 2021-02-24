@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <Route exact path="/" component={Home}/>
+        <Route exact path="/" basename={process.env.PUBLIC_URL} component={Home}/>
         <Route path="/about" component={About}/>
         <Route path="/contact" component={Contact}/>
       </Switch>
