@@ -5,7 +5,7 @@ import cactus from '../images/cactus.jpg'
 
 export default function Contact(){
     return (
-        <div className="contact-container">
+        <div className="contact-container" id="contact">
             <h1>Get in touch!</h1>
             <div className="contact-content">
                 

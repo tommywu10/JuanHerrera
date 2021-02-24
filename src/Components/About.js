@@ -3,7 +3,7 @@ import percussion from '../images/percussion.jpg'
 
 export default function About(){
     return (
-        <div className="about-me-container">
+        <div className="about-me-container" id="about">
             <div className="about-me-title">
                 <h1>What I Do</h1>
             </div>

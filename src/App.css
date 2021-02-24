@@ -79,7 +79,9 @@ html, body {
   font-size: 40px;
   color: rgb(177, 174, 174);
   position: absolute;
-  bottom: 10px;
+  bottom: 0;
+  left: 45%;
+  cursor: pointer;
 }
 /* --------------------------HOME CONTAINER------------------------ */
 
@@ -124,6 +126,7 @@ html, body {
   display: flex;
   position: absolute;
   bottom: 1px;
+  margin: 13px 0;
 }
 
 .home-main-text p {
@@ -286,7 +289,16 @@ html, body {
 
 /* --------------------------MEDIA QUERY------------------------ */
 
-@media (min-width: 1024px) {
+
+@media (min-width: 768px) {
+  .header-container {
+    height: 60px;
+  }
+
+  #landing-page-arrow {
+    left: 50%;
+  }
+
   .home-main-container img {
     width: 60%;
     height: 100%;
@@ -327,6 +339,10 @@ html, body {
     align-items: center;
   }
 
+  .liminal-space-content p {
+    width: 85%;
+  }
+
   .liminal-space-logo {
     order: 2;
     width: 50%;
@@ -335,10 +351,11 @@ html, body {
   }
 
   #liminal-crew-img {
-    display: none;
+    width: 50%;
   }
 
   .contact-container h1 {
     top: 100px;
   }
 }
+
