@@ -257,7 +257,8 @@ html, body {
 .contact-content h4 {
   position: absolute;
   bottom: 0;
-  text-align: center
+  text-align: center;
+  margin: 0 10px 10px;
 }
 /* --------------------------FOOTER------------------------ */
 
@@ -355,7 +356,14 @@ html, body {
   }
 
   .contact-container h1 {
-    top: 100px;
+    top: 50px;
+  }
+}
+
+@media (min-width: 1440px){
+  .home-main-container img {
+    width: 40%;
+    height: 100%;
   }
 }
 
