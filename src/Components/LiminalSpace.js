@@ -4,7 +4,7 @@ import liminal from "../images/liminal-crew.jpg"
 
 export default function LiminalSpace(){
     return (
-        <div className="liminal-space-container">
+        <div className="liminal-space-container" id="liminal">
             <div className="liminal-space-logo">
                 <img id="liminal-logo" src={logo} alt="logo" />
             </div>
