@@ -11,7 +11,7 @@ export default function Contact(){
                 
                 <div className="contact-info">
                     <FontAwesomeIcon icon={faEnvelope} className="contact-icon"/>
-                    <h3><a id="contact-link" href= "mailto: juanherrera@smallpp.com">juanherrera@smallpp.com</a></h3>
+                    <h3><a id="contact-link" href= "mailto: juanherrera@smallpp.com">juanherrera@gmail.com</a></h3>
                 </div>
                 <div className="contact-info">
                     <FontAwesomeIcon icon={faLocationArrow} className="contact-icon"/>
