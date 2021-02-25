@@ -35,6 +35,7 @@ html, body {
   margin: 0 15px;
   text-transform: uppercase;
   transition: linear .2s;
+  cursor: pointer;
 }
 
 .header-container nav a:hover{
@@ -205,7 +206,7 @@ html, body {
 
 #liminal-crew-img {
   width: 100%;
-  padding: 5px 0 20px;
+  margin: 5px 0 20px;
 }
 /* -------------------------CONTACT------------------------ */
 
@@ -352,7 +353,8 @@ html, body {
   }
 
   #liminal-crew-img {
-    width: 50%;
+    width: 70%;
+    border: 4px solid gray;
   }
 
   .contact-container h1 {
