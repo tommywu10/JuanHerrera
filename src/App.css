@@ -267,9 +267,13 @@ html, body {
 
 .contact-content h4 {
   position: absolute;
-  bottom: 0;
+  bottom: 110px;
   text-align: center;
   margin: 0 10px 10px;
+}
+
+#contact-link {
+  text-decoration: underline;
 }
 /* --------------------------FOOTER------------------------ */
 
@@ -281,6 +285,8 @@ html, body {
   color: var(--accent-color);
   background-color: black;
   width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 .footer-icon-container {
@@ -382,7 +388,7 @@ html, body {
   }
 
   .about-me-content p {
-    width: 60%;
+    width: 80%;
     font-size: 17px;
     letter-spacing: .3px;
   }

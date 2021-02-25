@@ -17,7 +17,6 @@ export default function Home(){
             <About />
             <LiminalSpace />
             <Contact />
-            <Footer />
         </div>
     )
 }
