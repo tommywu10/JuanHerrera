@@ -11,11 +11,11 @@ export default function Contact(){
                 
                 <div className="contact-info">
                     <FontAwesomeIcon icon={faEnvelope} className="contact-icon"/>
-                    <h3>juanherrera@smallpp.com</h3>
+                    <h3><a href= "mailto: juanherrera@smallpp.com">juanherrera@smallpp.com</a></h3>
                 </div>
                 <div className="contact-info">
                     <FontAwesomeIcon icon={faLocationArrow} className="contact-icon"/>
-                    <h3>Fredonia, NY</h3>
+                    <h3><a href="https://goo.gl/maps/7SAfwiaveQphU76n9" target="_blank">Fredonia, NY</a></h3>
                 </div>
                 <div className="contact-info">
                     <FontAwesomeIcon icon={faPhoneSquareAlt} className="contact-icon"/>
