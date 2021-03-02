@@ -32,7 +32,6 @@ html, body {
   color: var(--accent-color);
   font-family: var(--nav-bar-font);
   font-size: 15px;
-  margin: 0 12px;
   text-transform: uppercase;
   transition: linear .2s;
   cursor: pointer;
@@ -40,6 +39,13 @@ html, body {
 
 .header-container nav a:hover{
   color: white;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 /* --------------------------LANDING PAGE------------------------ */
@@ -393,9 +399,9 @@ html, body {
 }
 
 
-@media (min-width: 800px){
+@media (min-width: 940px){
   .home-main-container img {
-    width: 40%;
+    width: 80%;
     height: 100%;
   }
 
@@ -414,6 +420,18 @@ html, body {
     letter-spacing: .3px;
   }
 
+}
+
+@media (min-width: 1280px) {
+  .nav-bar {
+    display: inline;
+    text-align: center;
+  }
+
+  .header-container nav a {
+    margin: 0 20px;
+  }
+
   .about-me-container {
     flex-direction: row;
     background-image: linear-gradient(100deg, rgba(0,0,0,.5) 34%, rgba(0,0,0, 1) 50%, rgba(0,0,0,1) 100%), url('./images/percussion.jpg');
@@ -423,5 +441,5 @@ html, body {
     background-position: left;
     background-color: #ffffff;
   }
-}
 
+}
