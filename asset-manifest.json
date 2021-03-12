@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/JuanHerrera/static/css/main.be2dd55a.chunk.css",
-    "main.js": "/JuanHerrera/static/js/main.09394654.chunk.js",
-    "main.js.map": "/JuanHerrera/static/js/main.09394654.chunk.js.map",
-    "runtime-main.js": "/JuanHerrera/static/js/runtime-main.9dd98ec6.js",
-    "runtime-main.js.map": "/JuanHerrera/static/js/runtime-main.9dd98ec6.js.map",
-    "static/js/2.56b6ce17.chunk.js": "/JuanHerrera/static/js/2.56b6ce17.chunk.js",
-    "static/js/2.56b6ce17.chunk.js.map": "/JuanHerrera/static/js/2.56b6ce17.chunk.js.map",
-    "static/js/3.45cd0f06.chunk.js": "/JuanHerrera/static/js/3.45cd0f06.chunk.js",
-    "static/js/3.45cd0f06.chunk.js.map": "/JuanHerrera/static/js/3.45cd0f06.chunk.js.map",
+    "main.css": "/JuanHerrera/static/css/main.ba96a76e.chunk.css",
+    "main.js": "/JuanHerrera/static/js/main.0c34f71b.chunk.js",
+    "main.js.map": "/JuanHerrera/static/js/main.0c34f71b.chunk.js.map",
+    "runtime-main.js": "/JuanHerrera/static/js/runtime-main.b4b95667.js",
+    "runtime-main.js.map": "/JuanHerrera/static/js/runtime-main.b4b95667.js.map",
+    "static/js/2.83e04674.chunk.js": "/JuanHerrera/static/js/2.83e04674.chunk.js",
+    "static/js/2.83e04674.chunk.js.map": "/JuanHerrera/static/js/2.83e04674.chunk.js.map",
+    "static/js/3.7355d622.chunk.js": "/JuanHerrera/static/js/3.7355d622.chunk.js",
+    "static/js/3.7355d622.chunk.js.map": "/JuanHerrera/static/js/3.7355d622.chunk.js.map",
     "index.html": "/JuanHerrera/index.html",
-    "static/css/main.be2dd55a.chunk.css.map": "/JuanHerrera/static/css/main.be2dd55a.chunk.css.map",
-    "static/js/2.56b6ce17.chunk.js.LICENSE.txt": "/JuanHerrera/static/js/2.56b6ce17.chunk.js.LICENSE.txt",
+    "static/css/main.ba96a76e.chunk.css.map": "/JuanHerrera/static/css/main.ba96a76e.chunk.css.map",
+    "static/js/2.83e04674.chunk.js.LICENSE.txt": "/JuanHerrera/static/js/2.83e04674.chunk.js.LICENSE.txt",
     "static/media/App.css": "/JuanHerrera/static/media/recital.18c87d31.jpg",
     "static/media/liminal-crew.ad541d8f.jpg": "/JuanHerrera/static/media/liminal-crew.ad541d8f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9dd98ec6.js",
-    "static/js/2.56b6ce17.chunk.js",
-    "static/css/main.be2dd55a.chunk.css",
-    "static/js/main.09394654.chunk.js"
+    "static/js/runtime-main.b4b95667.js",
+    "static/js/2.83e04674.chunk.js",
+    "static/css/main.ba96a76e.chunk.css",
+    "static/js/main.0c34f71b.chunk.js"
   ]
 }
